@@ -1,0 +1,16 @@
+Sports Complex Timings:
+
+Monday to Friday:
+- Gym: 6:00 AM – 10:00 PM
+- Swimming: 7:00 AM – 9:00 PM
+- Indoor Courts: 8:00 AM – 10:00 PM
+- Outdoor Grounds: 6:00 AM – 7:00 PM
+
+Saturday:
+- Gym: 7:00 AM – 10:00 PM
+- Swimming: 8:00 AM – 8:00 PM
+
+Sunday:
+- Gym: 8:00 AM – 8:00 PM
+- Swimming: Closed for maintenance
+- Outdoor Grounds: Closed

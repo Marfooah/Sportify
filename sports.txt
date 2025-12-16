@@ -1,0 +1,24 @@
+Available Sports at Sportify Sports Complex:
+
+Outdoor Sports:
+- Cricket
+- Football
+- Footsal
+- Athletics (Track & Field)
+- Basketball
+- Padle
+
+Indoor Sports:
+- Badminton
+- Table Tennis
+- Squash
+- Volleyball
+- Basketball
+- Snooker
+
+Fitness & Wellness:
+- Gym & Strength Training
+- Swimming
+- Yoga
+- Aerobics
+- Zumba
