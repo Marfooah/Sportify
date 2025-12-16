@@ -1,7 +1,0 @@
-Booking Rules:
-
-- Sports courts must be booked at least 24 hours in advance.
-- Maximum booking duration is 1 hour per session.
-- Members can make up to 3 active bookings at a time.
-- Bookings can be made via front desk or online system.
-- Late arrival beyond 15 minutes may result in cancellation.
