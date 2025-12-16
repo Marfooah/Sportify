@@ -1,0 +1,188 @@
+Coaches Information:
+
+COACHES AT THE SPORTS COMPLEX
+
+========================
+OUTDOOR SPORTS
+========================
+
+CRICKET
+- Male Coach: Ahmed Khan
+  Role: Head Cricket Coach
+  Experience: 10 years
+  Availability: Mon–Fri, 4 PM – 8 PM
+
+- Female Coach: Ayesha Farooq
+  Role: Cricket Coach (Female Sessions)
+  Experience: 6 years
+  Availability: Tue, Thu, Sat, 10 AM – 1 PM
+
+
+FOOTBALL
+- Male Coach: Bilal Ahmed
+  Experience: 8 years
+  Availability: Mon–Fri, 5 PM – 8 PM
+
+- Female Coach: Zara Iqbal
+  Experience: 5 years
+  Availability: Wed–Sun, 3 PM – 6 PM
+
+
+FUTSAL
+- Male Coach: Usman Latif
+  Experience: 7 years
+  Availability: Daily, 6 PM – 9 PM
+
+- Female Coach: Hira Siddiqui
+  Experience: 4 years
+  Availability: Tue–Sun, 4 PM – 7 PM
+
+
+PADEL
+- Male Coach: Salman Akhtar
+  Experience: 6 years
+  Availability: Mon–Fri, 5 PM – 8 PM
+
+- Female Coach: Anam Khalid
+  Experience: 4 years
+  Availability: Sat–Sun, 10 AM – 1 PM
+
+
+ATHLETICS (TRACK & FIELD)
+- Male Coach: Kamran Shah
+  Experience: 12 years
+  Availability: Mon–Sat, 6 AM – 9 AM
+
+- Female Coach: Saira Noor
+  Experience: 8 years
+  Availability: Mon–Fri, 7 AM – 10 AM
+
+
+BASKETBALL (Outdoor)
+- Male Coach: Salman Raza
+  Experience: 9 years
+  Availability: Mon–Fri, 6 PM – 9 PM
+
+- Female Coach: Iqra Faisal
+  Experience: 6 years
+  Availability: Wed–Sun, 3 PM – 6 PM
+
+
+
+========================
+INDOOR SPORTS
+========================
+
+BADMINTON
+- Male Coach: Usman Ali
+  Experience: 7 years
+  Availability: Daily, 6 PM – 9 PM
+
+- Female Coach: Hina Shah
+  Experience: 6 years
+  Availability: Daily, 4 PM – 7 PM
+
+
+TABLE TENNIS
+- Male Coach: Farhan Malik
+  Experience: 5 years
+  Availability: Mon–Fri, 5 PM – 8 PM
+
+- Female Coach: Nida Qureshi
+  Experience: 4 years
+  Availability: Sat–Sun, 11 AM – 2 PM
+
+
+SQUASH
+- Male Coach: Adnan Tariq
+  Experience: 8 years
+  Availability: Mon–Fri, 6 PM – 9 PM
+
+- Female Coach: Maham Riaz
+  Experience: 5 years
+  Availability: Tue–Sun, 3 PM – 6 PM
+
+
+VOLLEYBALL
+- Male Coach: Hassan Ali
+  Experience: 7 years
+  Availability: Mon–Fri, 5 PM – 8 PM
+
+- Female Coach: Sana Javed
+  Experience: 5 years
+  Availability: Wed–Sun, 4 PM – 7 PM
+
+
+SNOOKER
+- Male Coach: Imran Yousaf
+  Experience: 9 years
+  Availability: Daily, 6 PM – 10 PM
+
+- Female Coach: Rabia Khalil
+  Experience: 4 years
+  Availability: Tue–Sat, 5 PM – 8 PM
+
+
+BASKETBALL (Indoor)
+- Male Coach: Ali Hassan
+  Experience: 8 years
+  Availability: Mon–Fri, 6 PM – 9 PM
+
+- Female Coach: Mariam Siddiq
+  Experience: 5 years
+  Availability: Wed–Sun, 3 PM – 6 PM
+
+
+========================
+FITNESS & WELLNESS
+========================
+
+GYM & STRENGTH TRAINING
+- Male Trainer: Bilal Hussain
+  Certification: Certified Personal Trainer
+  Availability: Daily, 6 AM – 10 AM
+
+- Female Trainer: Maryam Raza
+  Certification: Certified Fitness Coach
+  Availability: Daily, 5 PM – 8 PM
+
+
+SWIMMING
+- Male Coach: Kamran Siddiqui
+  Experience: 9 years
+  Availability: Mon–Sat, 7 AM – 10 AM
+
+- Female Coach: Sara Malik
+  Experience: 6 years
+  Availability: Tue, Thu, Sat, 10 AM – 1 PM
+  Note: Female-only sessions handled by female coach
+
+
+YOGA
+- Male Instructor: Fahad Noor
+  Experience: 6 years
+  Availability: Mon–Fri, 7 AM – 9 AM
+
+- Female Instructor: Areeba Khan
+  Experience: 5 years
+  Availability: Daily, 5 PM – 7 PM
+
+
+AEROBICS
+- Male Instructor: Shahzaib Ali
+  Experience: 5 years
+  Availability: Mon–Fri, 6 PM – 8 PM
+
+- Female Instructor: Komal Rafiq
+  Experience: 6 years
+  Availability: Daily, 4 PM – 6 PM
+
+
+ZUMBA
+- Male Instructor: Daniyal Ahmed
+  Experience: 4 years
+  Availability: Tue–Sun, 7 PM – 9 PM
+
+- Female Instructor: Noor Fatima
+  Experience: 6 years
+  Availability: Daily, 5 PM – 7 PM

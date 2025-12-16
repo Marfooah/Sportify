@@ -1,0 +1,30 @@
+Members at the Sports Complex:
+1. Ali Khan
+   Plan: Platinum
+   Duration: Yearly
+   Role: Regular Member
+   Notes: General public
+
+2. Sara Ahmed
+   Plan: Gold
+   Duration: Quarterly
+   Role: NUST Student
+   Notes: Eligible for 30% student discount
+
+3. Bilal Raza
+   Plan: Silver
+   Duration: Monthly
+   Role: Faculty
+   Notes: Eligible for faculty discount if applicable
+
+4. Maryam Siddiq
+   Plan: Platinum
+   Duration: Monthly
+   Role: Alumni
+   Notes: Eligible for 20% alumni discount
+
+5. Hassan Noor
+   Plan: Gold
+   Duration: Yearly
+   Role: Regular Member
+   Notes: General public
