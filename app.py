@@ -3,19 +3,24 @@ import streamlit as st
 import faiss
 import numpy as np
 from sentence_transformers import SentenceTransformer
-from groq import Groq
+from groq import Groq, APIConnectionError
+import time
 
 # ---------------- CONFIG ----------------
-GROQ_API_KEY = os.getenv("GROQ_API_KEY", "")
-
+GROQ_API_KEY = os.environ.get("GROQ_API_KEY")
 if not GROQ_API_KEY:
-    raise RuntimeError("GROQ_API_KEY not set. Set it in environment variables before running.")
+    raise RuntimeError(
+        "GROQ_API_KEY not set. Add it in Streamlit Secrets (App Settings → Secrets)."
+    )
 
 client = Groq(api_key=GROQ_API_KEY)
 
-EMBED_MODEL = SentenceTransformer("all-MiniLM-L6-v2")
-LLM_MODEL = "llama-3.3-70b-versatile"
+# Force CPU for Streamlit Cloud (GPU not available)
+EMBED_MODEL = SentenceTransformer("all-MiniLM-L6-v2", device="cpu")
 
+LLM_MODEL = "llama-3.1-8b-instant"  # lighter model for Streamlit Cloud
+
+# ---------------- DATA FILES ----------------
 DATA_FILES = [
     "data/overview.txt",
     "data/sports.txt",
@@ -50,7 +55,6 @@ for d in docs:
 
 embeddings = EMBED_MODEL.encode(chunks)
 dimension = embeddings.shape[1]
-
 index = faiss.IndexFlatL2(dimension)
 index.add(np.array(embeddings))
 
@@ -61,23 +65,29 @@ def rag_answer(query, history):
     context = "\n".join([chunks[i] for i in idx[0]])
 
     messages = [
-        {"role": "system", "content": "You are Sportify, a professional AI assistant for a sports complex. Answer clearly and professionally."}
+        {"role": "system",
+         "content": "You are Sportify, a professional AI assistant for a sports complex. Answer clearly and professionally."}
     ]
-
-    for h in history:
-        messages.append(h)
-
+    messages.extend(history)
     messages.append({
         "role": "user",
         "content": f"Context:\n{context}\n\nQuestion:\n{query}"
     })
 
-    response = client.chat.completions.create(
-        model=LLM_MODEL,
-        messages=messages
-    )
+    # Retry logic for Groq connection issues
+    for attempt in range(5):
+        try:
+            response = client.chat.completions.create(
+                model=LLM_MODEL,
+                messages=messages,
+                timeout=30
+            )
+            return response.choices[0].message.content
+        except APIConnectionError:
+            st.warning(f"Groq connection issue. Retrying... ({attempt+1}/5)")
+            time.sleep(2 ** attempt)
 
-    return response.choices[0].message.content
+    return "⚠️ The AI service is temporarily busy. Please try again in a moment."
 
 # ---------------- UI ----------------
 st.set_page_config(page_title="Sportify AI", layout="centered")
@@ -86,15 +96,15 @@ st.title("🏟️ Sportify – Sports Complex AI Assistant")
 if "chat_history" not in st.session_state:
     st.session_state.chat_history = []
 
+# Text-only input
 user_input = st.text_input("Ask about sports, timings, memberships, bookings...")
-
-
 
 if st.button("Ask") and user_input:
     answer = rag_answer(user_input, st.session_state.chat_history)
     st.session_state.chat_history.append({"role": "user", "content": user_input})
     st.session_state.chat_history.append({"role": "assistant", "content": answer})
 
+# Display chat history
 for msg in st.session_state.chat_history:
     if msg["role"] == "user":
         st.markdown(f"**You:** {msg['content']}")
