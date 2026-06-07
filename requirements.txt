@@ -3,6 +3,6 @@ groq
 faiss-cpu
 numpy
 torch
-torchvision=
+torchvision
 sentence-transformers
 transformers
