@@ -18,7 +18,7 @@ client = Groq(api_key=GROQ_API_KEY)
 # Force CPU for Streamlit Cloud (GPU not available)
 EMBED_MODEL = SentenceTransformer("all-MiniLM-L6-v2", device="cpu")
 
-LLM_MODEL = "llama-3.1-8b-instant"  # lighter model for Streamlit Cloud
+LLM_MODEL = "llama-3.3-70b-versatile"  
 
 # ---------------- DATA FILES ----------------
 DATA_FILES = [
