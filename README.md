@@ -7,14 +7,12 @@ Sportify AI enables users to ask natural language questions about a sports compl
 Instead of relying solely on a Large Language Model, the system first retrieves relevant information from internal documents and then generates responses using an LLM, reducing hallucinations and improving accuracy.
 
 ---
+🚀 Live Demo: https://sportify37.streamlit.app/
 
-# 🚀 Live Demo
+## 📸 Application Preview
 
-Add your deployed Streamlit link here:
+<img width="2876" height="866" alt="image" src="https://github.com/user-attachments/assets/833ccc6f-73c9-4bb3-8748-124c5b945c06" />
 
-```text
-https://your-app.streamlit.app
-```
 
 ---
 
