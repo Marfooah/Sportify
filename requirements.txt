@@ -1,7 +1,8 @@
 streamlit
+groq
 faiss-cpu
 numpy
-sentence-transformers
 torch
+torchvision=
+sentence-transformers
 transformers
-groq
